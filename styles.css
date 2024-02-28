@@ -83,7 +83,7 @@ nav ul {
     flex-direction: column;
 }
 
-.mid-nav > ul {
+.menu-list {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -114,4 +114,39 @@ a:hover, a:focus, .close-nav-btn:hover, .close-nav-btn:focus {
     /* position: fixed;
     right: 5%;
     top: 2%; */
+}
+
+
+@media (min-width:992px){
+    .nav-btn, .close-nav-btn{
+        display:none;
+    }
+    .right-div-wrapper{
+        position:initial;
+    }
+    .menu-list{
+        flex-direction: row;
+        font-size:.5rem;
+        gap:5em;
+    }
+    .nav-list{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 64vw;
+        /* border:2px solid black; */
+    }
+    nav{
+        justify-content: start;
+        padding: 2em 10em;
+    }
+    .menu-link{
+        font-size:1.2rem;
+    }
+    .mid-nav{
+        margin: 0 auto;
+    }
+    .nav-icon {
+        font-size:1.5rem;
+        margin-right:.5em;
+    }
 }
