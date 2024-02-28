@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Dosis&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +13,30 @@
     <body>
         <nav>
             <div class="left-nav">
-                <img src="assets/CHILLI.svg" alt="chilli logo">
+                <img class="nav-logo"src="assets/CHILLI.svg" alt="chilli logo">
             </div>
-            <div class="mid-nav">
-                <ul>
-                    <li>Home</li>
-                    <li>Recipes</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+            <div class="mobile-nav">
+                <button class="nav-btn" aria-label="open navigation"><i class="fa-solid fa-bars"></i></button>
             </div>
-            <div class="right-nav">
-                <ul>
-                    <a href="#"><li><i class="fa-brands fa-twitter"></i></li></a>
-                    <a href="#"><li><i class="fa-brands fa-facebook"></i></li></a>
-                    <a href="#"><li><i class="fa-brands fa-instagram"></i></li></a>
-                    <a href="#"><li><i class="fa-brands fa-youtube"></i></li></a>
-                </ul>
+            <div class="right-div-wrapper">
+                <div class="mid-nav">
+                    <ul>
+                        <li>Home</li>
+                        <li>Recipes</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <a href="#"><li><i class="fa-brands fa-twitter"></i></li></a>
+                        <a href="#"><li><i class="fa-brands fa-facebook"></i></li></a>
+                        <a href="#"><li><i class="fa-brands fa-instagram"></i></li></a>
+                        <a href="#"><li><i class="fa-brands fa-youtube"></i></li></a>
+                    </ul>
+                </div>
             </div>
+
         </nav>
         <header class="hero-section">
             <div class="hero-bg">
