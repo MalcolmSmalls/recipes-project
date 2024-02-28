@@ -29,17 +29,114 @@
                 </ul>
             </div>
         </nav>
-        <section class="hero-section">
+        <header class="hero-section">
             <div class="hero-bg">
                 <h1 class="hero-title">Find Your New Fav Dish</h1>
                 <p class="hero-p">Suspendisse et justo in lectus bibendum viverra nec eu velit. 
                 Phasellus sed nunc turpis. Donec nec nunc at erat euismod vulputate ut quis arcu. 
                 Vestibulum feugiat lacinia auctor. </p>
-                <a href="#" class="hero-btn">Find Recipes</a>
+                <a href="#" class="primary-btn">Find Recipes</a>
             </div>
-        </section>
-        <h1>Odin Recipes</h1>
-        <a href="recipes/cajun-pasta.html">Cajun Pasta</a>
+        </header>
+        <main>
+            <section class="recipes-section">
+                <h2 class="section-header">Recipes</h2>
+                <input class="recipes-search" placeholder="Enter a keyword to search" aria-label="Insert keyword to search"/><i class="fa-solid fa-magnifying-glass"></i>
+                <div class="recipe-wrapper">
+                    <div class="recipe-title-wrapper">
+                        <h4>Dinner</h4>
+                    </div>
+                    <div class="recipe-description">
+                        <h3>Fettuccine Alfredo</h3>
+                        <p>by John Blue</p>
+                    </div>
+                </div>
+    
+                <div class="recipe-wrapper">
+                    <div class="recipe-title-wrapper">
+                        <h4>Breakfast</h4>
+                    </div>
+                    <div class="recipe-description">
+                        <h3>Slammin' Egg Sandwich</h3>
+                        <p>by Ocean Swells</p>
+                    </div>
+                </div>
+    
+                <div class="recipe-wrapper">
+                    <div class="recipe-title-wrapper">
+                        <h4>Desserts</h4>
+                    </div>
+                    <div class="recipe-description">
+                        <h3>Raspberry Parfait</h3>
+                        <p>by Meek Johnson</p>
+                    </div>
+                </div>
+    
+                <div class="recipe-wrapper">
+                    <div class="recipe-title-wrapper">
+                        <h4>Beverages</h4>
+                    </div>
+                    <div class="recipe-description">
+                        <h3>Dirty Matcha</h3>
+                        <p>by Ditty</p>
+                    </div>
+                </div>
+            </section>
+            <section class="about-section">
+                <h2 class="section-header">About</h2>
+                <div class="left-about">
+                    <h3>I'm Chef Jones</h3>
+                    <p class="about-p">It is my goal to bring you delicious, healthy and affordable meals. 
+                        I understand the importance of food in bonding us with one another. 
+                        My aim is to heighten these moments and provide you flavor for these experiences.</p>
+                    <a href="#" class="primary-btn">Learn More</a>
+                </div>
+                <div class="right-about">
+                    <img src="assets/about-me-img.jpg" alt="Me flambeing in my restaurant's kitchen.">
+                </div>
+
+            </section>
+            <section class="contact-section">
+                <h2 class="section-header">Contact</h2>
+                <form class="contact-form">
+                    <input class="contact-input" placeholder="First Name" aria-label="First Name" name="firstName" type="text" />
+                    <input class="contact-input" placeholder="Last Name" aria-label="Last Name" name="lastName" type="text" />
+                    <input class="contact-input" placeholder="E-mail Address" aria-label="E-mail Address" name="emailAddress" type="text" />
+                    <input class="contact-input" placeholder="Subject Line" aria-label="Subject Line" name="subjectLine" type="text" />
+                    <textarea class="contact-input" placeholder="Comments" aria-label="Comments" name="comment">
+                        Comments
+                    </textarea>
+                    <a href="" class="secondary-btn">Submit</a>
+                </form>
+            </section>
+
+            
+        </main>
+        <footer>
+            <div class="footer-left">
+                <ul class="footer-site-map">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-mid">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <img src="assets/chilli-logo-2.svg">
+                <h5>Your Gourmet Food Plug</h5>
+            </div>
+        </footer>
+
+        <div class="footer-footnotes">
+            <h6>Copyright <span class="copyright-accent">©</span> Malcolm Smalls</h6>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
