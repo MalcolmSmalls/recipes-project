@@ -87,4 +87,31 @@ nav ul {
     display:flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+}
+
+
+a {
+    color: #2A6081;
+    text-decoration: none;
+}
+
+.menu-link {
+    font-size:2rem;
+}
+
+a:hover, a:focus, .close-nav-btn:hover, .close-nav-btn:focus {
+    transition: color 250ms;
+    color: #ECB76A;
+}
+
+.close-nav-btn{
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    font-size:5em;
+    cursor: pointer;
+    color: #2A6081;
+    /* position: fixed;
+    right: 5%;
+    top: 2%; */
 }
