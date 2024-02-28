@@ -37,8 +37,9 @@ nav {
     right: 0;
     left: 100%;
     bottom: 0;
-    transform: translateX(0);
+    transform: translateX(0%);
     transition: transform 250ms;
+    overflow:hidden;
 }
 
 nav ul {
@@ -61,3 +62,29 @@ nav ul {
     width:90%;
 }
 
+.hero-section {
+    padding:2em;
+    background-image: url('assets/hero-bg.jpg');
+    margin: 0;
+    background-size:cover;
+}
+
+.navigation-open{
+    transform:translateX(-100%);
+    width:100%;
+    background-color: white;
+}
+
+.nav-list{
+    display:flex;
+    height:100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mid-nav > ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
